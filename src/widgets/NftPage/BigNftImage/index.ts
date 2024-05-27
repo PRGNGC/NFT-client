@@ -1,0 +1,1 @@
+export { BigNftImage } from "./BigNftImage";

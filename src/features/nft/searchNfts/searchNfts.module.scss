@@ -1,0 +1,20 @@
+@use "@/app/common";
+
+.nftSearchBlock {
+	padding: 12px;
+	background-color: common.$custom-neutral-4;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+	width: fit-content;
+
+	.nftSearch {
+		background-color: common.$custom-neutral-4;
+		border: none;
+		outline: none;
+		font-size: 14px;
+		font-weight: 500;
+		color: common.$custom-neutral-6;
+	}
+}

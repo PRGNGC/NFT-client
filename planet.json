@@ -1,0 +1,842 @@
+[
+	{
+		"id": "81331d1a-8ce9-52cc-a51e-076d2b30ecd3",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-1.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-9.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "UI8 Team",
+				"id": "123",
+				"ownerImg": "/images/avatar-8.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "27285132-7508-5495-a672-26b47efd6671",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-2.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-8.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-7.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "c803d661-877a-5012-8eed-ac8d815c07ea",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Bars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-3.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-4.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-6.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-4.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-5.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-7.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "5e7a8836-60b9-5ad6-931e-f746545c41cc",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-5.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-2.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-5.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "e1517165-ed51-5aa1-ac6e-a5c599ee1f11",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-6.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-2.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-5.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "9220a845-2c49-5b6d-aa7e-30ada95bfc64",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-7.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-9.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-5.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "3b13e6b4-b714-5c33-b169-5a304f5df0c0",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-8.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-5.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-3.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "523ac485-7024-5514-ae09-3f798b3a06e8",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-9.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-4.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-9.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "bfa5343b-4ba8-59e1-87d2-b749888446ea",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-1.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-4.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-8.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "f6d6d5ec-fe1b-5b7c-8db2-a48f365efbbe",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-2.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-8.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-9.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "b6d05806-847f-5c53-b1f2-732d224b6004",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-3.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-1.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-3.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "9fe097d4-d984-5b02-8330-da137a295f8f",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-4.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-1.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-3.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "f43f7954-40b7-5738-8ff3-94b3c738d64c",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-5.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-8.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-7.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	},
+	{
+		"id": "9ad96aee-5abd-5994-9ab4-c949de4022cb",
+		"nftType": "planets",
+		"nftId": "078928",
+		"nftEthPrice": 3.54,
+		"nftName": "Mars",
+		"nftSystem": "Solar system",
+		"nftCoordinates": "-15, +09, +89",
+		"nftImg": "/images/planet-6.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"27285132-7508-5495-a672-26b47efd6671",
+			"c803d661-877a-5012-8eed-ac8d815c07ea",
+			"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+			"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+			"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+		],
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-7.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		],
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-7.png"
+			},
+			"found": "08.03.2022",
+			"specification": {
+				"residents": {
+					"field": "Residents",
+					"value": 10000,
+					"img": "/images/astronaut.png"
+				},
+				"soldiers": {
+					"field": "Soldiers",
+					"value": 22,
+					"img": "/images/lumburr.png"
+				},
+				"wood": { "field": "Wood", "value": 600, "img": "/images/wood.png" },
+				"gold": { "field": "Gold", "value": 100, "img": "/images/gold.png" },
+				"iron": { "field": "Iron", "value": 200, "img": "/images/iron.png" },
+				"stone": {
+					"field": "Stone",
+					"value": "Fire",
+					"img": "/images/stone.png"
+				}
+			}
+		}
+	}
+]

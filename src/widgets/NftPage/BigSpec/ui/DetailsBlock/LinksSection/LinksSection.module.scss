@@ -1,0 +1,41 @@
+@use "@/app/common.scss" as *;
+
+.linksBlock {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: row;
+	gap: 48px;
+
+	.etherscanBlock {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		gap: 12px;
+
+		.etherscanLink {
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 150%;
+			text-align: center;
+			color: $custom-neutral-8;
+		}
+	}
+
+	.metadataBlock {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		gap: 12px;
+
+		.metadataLink {
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 150%;
+			text-align: center;
+			color: $custom-neutral-8;
+		}
+	}
+}

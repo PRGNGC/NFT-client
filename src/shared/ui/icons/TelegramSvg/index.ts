@@ -1,0 +1,1 @@
+export { TelegramSvg } from "./TelegramSvg";

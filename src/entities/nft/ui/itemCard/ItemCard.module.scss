@@ -1,0 +1,110 @@
+@use "@/app/common" as *;
+
+.itemCardBlock {
+	color: black;
+	width: fit-content;
+
+	.itemCardImgBlock {
+		padding: 30px;
+		border-radius: 18px;
+		background-color: #ebe3d9;
+		height: fit-content;
+		position: relative;
+		z-index: 1;
+
+		.itemTraits {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			display: flex;
+			gap: 4px;
+
+			.itemTrait {
+				color: white;
+				border-radius: 6px;
+				padding: 10px 12px;
+				background-color: $custom-red;
+			}
+		}
+	}
+
+	.commonInfo {
+		margin-top: 20px;
+
+		.nftIdEthPrice {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.nftId {
+				border-radius: 6px;
+				padding: 3px 6px;
+				background-color: rgb(159 115 230 / 25%);
+				font-size: 12px;
+				font-weight: 600;
+			}
+
+			.nftEthPrice {
+				border: 2px solid rgb(48 178 140 / 25%);
+				border-radius: 8px;
+				padding: 2px 8px;
+				font-size: 14px;
+				font-weight: bold;
+				color: $custom-green;
+			}
+		}
+
+		hr {
+			margin: 20px 0;
+		}
+
+		.nftNameDollarPrice {
+			margin-top: 10px;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.nftName {
+				font-size: 20px;
+				font-weight: bold;
+			}
+
+			.nftDollarPrice {
+				font-size: 12px;
+				color: $custom-neutral-6;
+			}
+		}
+
+		.nftCoordinates {
+			display: flex;
+			align-items: center;
+			column-gap: 5px;
+			color: $custom-neutral-5;
+			font-size: 12px;
+		}
+
+		.nftLevelRequirements {
+			display: flex;
+			gap: 4px;
+
+			p {
+				font-weight: 600;
+				font-size: 12px;
+				line-height: 133%;
+				letter-spacing: -0.02em;
+
+				span {
+					color: $custom-green;
+				}
+			}
+		}
+
+		.bundleFeatures {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+}

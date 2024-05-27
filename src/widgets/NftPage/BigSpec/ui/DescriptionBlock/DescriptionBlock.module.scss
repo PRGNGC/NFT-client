@@ -1,0 +1,116 @@
+@use "@/app/common.scss" as *;
+
+.descriptionBlock {
+	flex-basis: 50%;
+
+	.descriptionTitle {
+		margin-bottom: 40px;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 140%;
+		letter-spacing: -0.02em;
+		color: $custom-neutral-8;
+	}
+
+	.locationBlock {
+		.locationTitle {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			color: $custom-neutral-5;
+		}
+
+		.locationInfo {
+			margin-top: 12px;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			flex-direction: row;
+			gap: 32px;
+
+			.locationPlace {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				flex-direction: row;
+				gap: 12px;
+
+				.locationImg {
+					border-radius: 40px;
+					width: 48px;
+					height: 48px;
+					background: rgb(48 178 140 / 25%);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+
+				.locationCoordinates {
+					.locationSystem {
+						display: block;
+						font-weight: 700;
+						font-size: 16px;
+						line-height: 150%;
+						text-align: center;
+						color: $custom-neutral-8;
+					}
+
+					.locationLongLat {
+						font-weight: 600;
+						font-size: 12px;
+						line-height: 133%;
+						letter-spacing: -0.02em;
+						color: $custom-neutral-5;
+					}
+				}
+			}
+
+			.getDirButton {
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 171%;
+				text-align: center;
+				color: $custom-neutral-8;
+				border: 2px solid rgb(127 133 150 / 30%);
+				background-color: transparent;
+				border-radius: 8px;
+				padding: 8px 16px;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.descriptionText {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 156%;
+		letter-spacing: -0.02em;
+		color: $custom-neutral-6;
+	}
+
+	.bundleItemsBlock {
+		margin-top: 32px;
+
+		.bundleItemsTitle {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			color: $custom-neutral-5;
+		}
+
+		.bundleItems {
+			margin-top: 12px;
+			display: flex;
+			align-items: flex-start;
+			justify-content: flex-start;
+			flex-direction: row;
+			gap: 24px;
+
+			.bundleItem {
+				border-radius: 10px;
+				padding: 18px;
+				background-color: $custom-neutral-9;
+			}
+		}
+	}
+}

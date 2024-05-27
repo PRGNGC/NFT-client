@@ -1,0 +1,110 @@
+@use "@/app/common.scss" as *;
+
+.byBlock {
+	margin-top: 40px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: row;
+	gap: 32px;
+
+	.ownedBy {
+		.ownedByTitle {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			color: $custom-neutral-5;
+		}
+
+		.ownedByContent {
+			margin-top: 12px;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			flex-direction: row;
+			gap: 12px;
+
+			.ownerCredentials {
+				.ownerName {
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 150%;
+					text-align: center;
+					color: $custom-neutral-8;
+				}
+
+				.ownerId {
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 133%;
+					letter-spacing: -0.02em;
+					color: $custom-neutral-5;
+				}
+			}
+		}
+	}
+
+	.found {
+		.foundTitle {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			color: $custom-neutral-5;
+		}
+
+		.foundContent {
+			margin-top: 12px;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			flex-direction: row;
+			gap: 12px;
+
+			.foundImg {
+				background: rgb(159 115 230 / 25%);
+				border-radius: 40px;
+				width: 48px;
+				height: 48px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.foundCalendar {
+				.foundDay {
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 150%;
+					text-align: center;
+					color: $custom-neutral-8;
+				}
+
+				.foundDate {
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 133%;
+					letter-spacing: -0.02em;
+					color: $custom-neutral-5;
+				}
+			}
+		}
+	}
+
+	.usedFor {
+		.usedForTitle {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			color: $custom-neutral-5;
+		}
+
+		.usedForContent {
+			margin-top: 12px;
+			display: flex;
+			align-items: flex-start;
+			justify-content: flex-start;
+			flex-direction: row;
+			gap: 12px;
+		}
+	}
+}

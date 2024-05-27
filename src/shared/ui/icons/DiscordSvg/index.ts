@@ -1,0 +1,1 @@
+export { DiscordSvg } from "./DiscordSvg";

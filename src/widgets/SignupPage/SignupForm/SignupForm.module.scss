@@ -1,0 +1,63 @@
+@use "@/app/common" as *;
+
+.loginFormBlock {
+	width: 400px;
+
+	.loginFormTitle {
+		color: black;
+		font-size: 48px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.formBlock {
+		display: flex;
+		flex-direction: column;
+
+		.formLoginInput {
+			background-color: $custom-neutral-3;
+			border-radius: 12px;
+			border: 1px solid $custom-neutral-4;
+			padding: 16px;
+			color: $custom-neutral-6;
+			font-size: 16px;
+			outline: none;
+			margin-bottom: 20px;
+		}
+
+		.formPasswordInput {
+			background-color: $custom-neutral-3;
+			border-radius: 12px;
+			border: 1px solid $custom-neutral-4;
+			padding: 16px;
+			color: $custom-neutral-6;
+			font-size: 16px;
+			outline: none;
+			margin-bottom: 20px;
+		}
+
+		.formNameInput {
+			background-color: $custom-neutral-3;
+			border-radius: 12px;
+			border: 1px solid $custom-neutral-4;
+			padding: 16px;
+			color: $custom-neutral-6;
+			font-size: 16px;
+			outline: none;
+			margin-bottom: 20px;
+		}
+
+		.loginButton {
+			border-radius: 12px;
+			padding: 16px;
+			color: white;
+			font-weight: bold;
+			font-size: 16px;
+			background-color: $custom-red;
+			outline: none;
+			border: none;
+			cursor: pointer;
+		}
+	}
+}

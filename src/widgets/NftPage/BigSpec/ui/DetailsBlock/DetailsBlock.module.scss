@@ -1,0 +1,13 @@
+@use "@/app/common.scss" as *;
+
+.detailsBlock {
+	flex-basis: 50%;
+
+	.detailsTitle {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 140%;
+		letter-spacing: -0.02em;
+		color: $custom-neutral-8;
+	}
+}

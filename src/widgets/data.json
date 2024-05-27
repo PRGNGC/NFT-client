@@ -1,0 +1,604 @@
+{
+	"_id": "662121fd417a2c238a57e790",
+	"login": "login15",
+	"password": "password15",
+	"__v": 0,
+	"name": "Jace Bednar",
+	"userImg": "/images/label.png",
+	"cover": "/images/cover.png",
+	"userId": "123",
+	"nfts": {
+		"characters": [
+			{
+				"id": "605d3484-f9c8-5508-ac1b-5a2976489a67",
+				"nftType": "characters",
+				"nftId": "07892",
+				"nftEthPrice": 0.08,
+				"nftName": "Pumburr",
+				"nftImg": "/images/character-1.png",
+				"nftTraits": ["new", "old"],
+				"similarNfts": [
+					"605d3484-f9c8-5508-ac1b-5a2976489a67",
+					"d579bf66-c29d-58b7-9911-b94a0461ee1d",
+					"c6d7a7f1-6089-5aa5-a27e-675fec9ecdf7",
+					"ec40ba0d-29ac-515c-98ee-bcbb2bd52853",
+					"62cad027-f94b-55f9-be23-11ee31ec385b"
+				],
+				"nftDetails": {
+					"ownedBy": {
+						"owner": "Keith Hessel",
+						"id": "993b39f3-7943-56fc-8111-412050467257",
+						"ownerImg": "/images/avatar-6.png"
+					},
+					"location": {
+						"planet": "Mars",
+						"city": "Aurora city",
+						"planetImg": "/images/planet-8.png"
+					},
+					"created": "17.03.2022",
+					"specification": {
+						"level": {
+							"field": "Level",
+							"value": 10,
+							"img": "/images/spec-3.png"
+						},
+						"health": {
+							"field": "Health",
+							"value": 101,
+							"img": "/images/spec-1.png"
+						},
+						"strength": {
+							"field": "Strength",
+							"value": 800,
+							"img": "/images/spec-4.png"
+						},
+						"morale": {
+							"field": "Morale",
+							"value": 100,
+							"img": "/images/spec-5.png"
+						},
+						"mana": {
+							"field": "Mana",
+							"value": 200,
+							"img": "/images/spec-1.png"
+						},
+						"gene": {
+							"field": "Gene",
+							"value": "Fire",
+							"img": "/images/spec-5.png"
+						}
+					},
+					"property": {
+						"emotion": { "field": "Emotion", "value": "Happy" },
+						"ears": { "field": "Ears", "value": "Short" },
+						"antennas": { "field": "Antennas", "value": "Normal" },
+						"tail": { "field": "Tail", "value": "Short" },
+						"color": { "field": "Color", "value": "Purple" },
+						"texture": { "field": "Texture", "value": "Abstract" }
+					}
+				},
+				"history": [
+					{
+						"user": "@tranmautritam",
+						"date": "26.05.2022",
+						"time": "10:15am",
+						"userAvatar": "/images/avatar-6.png",
+						"actionType": "purchased",
+						"priceETH": "0.08"
+					},
+					{
+						"user": "@randomdash",
+						"date": "26.05.2022 ",
+						"time": "10:15am",
+						"userAvatar": "/images/avatar-5.png",
+						"actionType": "listed",
+						"priceETH": "0.08"
+					}
+				]
+			},
+			{
+				"id": "d579bf66-c29d-58b7-9911-b94a0461ee1d",
+				"nftType": "characters",
+				"nftId": "07892",
+				"nftEthPrice": 0.08,
+				"nftName": "Aumburr",
+				"nftImg": "/images/character-2.png",
+				"nftTraits": ["new"],
+				"similarNfts": [
+					"605d3484-f9c8-5508-ac1b-5a2976489a67",
+					"d579bf66-c29d-58b7-9911-b94a0461ee1d",
+					"c6d7a7f1-6089-5aa5-a27e-675fec9ecdf7",
+					"ec40ba0d-29ac-515c-98ee-bcbb2bd52853",
+					"62cad027-f94b-55f9-be23-11ee31ec385b"
+				],
+				"nftDetails": {
+					"ownedBy": {
+						"owner": "Keith Hessel",
+						"id": "6dca908c-d1d3-54df-9807-b7c748ac1c3f",
+						"ownerImg": "/images/avatar-6.png"
+					},
+					"location": {
+						"planet": "Mars",
+						"city": "Aurora city",
+						"planetImg": "/images/planet-9.png"
+					},
+					"created": "17.03.2022",
+					"specification": {
+						"level": {
+							"field": "Level",
+							"value": 10,
+							"img": "/images/spec-3.png"
+						},
+						"health": {
+							"field": "Health",
+							"value": 101,
+							"img": "/images/spec-2.png"
+						},
+						"strength": {
+							"field": "Strength",
+							"value": 800,
+							"img": "/images/spec-4.png"
+						},
+						"morale": {
+							"field": "Morale",
+							"value": 100,
+							"img": "/images/spec-4.png"
+						},
+						"mana": {
+							"field": "Mana",
+							"value": 200,
+							"img": "/images/spec-5.png"
+						},
+						"gene": {
+							"field": "Gene",
+							"value": "Fire",
+							"img": "/images/spec-5.png"
+						}
+					},
+					"property": {
+						"emotion": { "field": "Emotion", "value": "Happy" },
+						"ears": { "field": "Ears", "value": "Short" },
+						"antennas": { "field": "Antennas", "value": "Normal" },
+						"tail": { "field": "Tail", "value": "Short" },
+						"color": { "field": "Color", "value": "Purple" },
+						"texture": { "field": "Texture", "value": "Abstract" }
+					}
+				},
+				"history": [
+					{
+						"user": "@tranmautritam",
+						"date": "26.03.2022",
+						"time": "10:15am",
+						"userAvatar": "/images/avatar-9.png",
+						"actionType": "purchased",
+						"priceETH": "0.08"
+					}
+				]
+			}
+		],
+		"planets": [
+			{
+				"id": "81331d1a-8ce9-52cc-a51e-076d2b30ecd3",
+				"nftType": "planets",
+				"nftId": "078928",
+				"nftEthPrice": 3.54,
+				"nftName": "Mars",
+				"nftSystem": "Solar system",
+				"nftCoordinates": "-15, +09, +89",
+				"nftImg": "/images/planet-1.png",
+				"nftTrait": "new",
+				"similarNfts": [
+					"27285132-7508-5495-a672-26b47efd6671",
+					"c803d661-877a-5012-8eed-ac8d815c07ea",
+					"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+					"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+					"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+				],
+				"history": [
+					{
+						"user": "@tranmautritam",
+						"date": "26.03.2022",
+						"time": "10:15am",
+						"userAvatar": "/images/avatar-9.png",
+						"actionType": "purchased",
+						"priceETH": "0.08"
+					}
+				],
+				"nftDetails": {
+					"ownedBy": {
+						"owner": "UI8 Team",
+						"id": "123",
+						"ownerImg": "/images/avatar-8.png"
+					},
+					"found": "08.03.2022",
+					"specification": {
+						"residents": {
+							"field": "Residents",
+							"value": 10000,
+							"img": "/images/astronaut.png"
+						},
+						"soldiers": {
+							"field": "Soldiers",
+							"value": 22,
+							"img": "/images/lumburr.png"
+						},
+						"wood": {
+							"field": "Wood",
+							"value": 600,
+							"img": "/images/wood.png"
+						},
+						"gold": {
+							"field": "Gold",
+							"value": 100,
+							"img": "/images/gold.png"
+						},
+						"iron": {
+							"field": "Iron",
+							"value": 200,
+							"img": "/images/iron.png"
+						},
+						"stone": {
+							"field": "Stone",
+							"value": "Fire",
+							"img": "/images/stone.png"
+						}
+					}
+				}
+			},
+			{
+				"id": "27285132-7508-5495-a672-26b47efd6671",
+				"nftType": "planets",
+				"nftId": "078928",
+				"nftEthPrice": 3.54,
+				"nftName": "Mars",
+				"nftSystem": "Solar system",
+				"nftCoordinates": "-15, +09, +89",
+				"nftImg": "/images/planet-2.png",
+				"nftTrait": "new",
+				"similarNfts": [
+					"27285132-7508-5495-a672-26b47efd6671",
+					"c803d661-877a-5012-8eed-ac8d815c07ea",
+					"a1776410-b21d-5265-a0eb-2d1b8d064fd1",
+					"5e7a8836-60b9-5ad6-931e-f746545c41cc",
+					"e1517165-ed51-5aa1-ac6e-a5c599ee1f11"
+				],
+				"history": [
+					{
+						"user": "@tranmautritam",
+						"date": "26.03.2022",
+						"time": "10:15am",
+						"userAvatar": "/images/avatar-8.png",
+						"actionType": "purchased",
+						"priceETH": "0.08"
+					}
+				],
+				"nftDetails": {
+					"ownedBy": {
+						"owner": "Keith Hessel",
+						"id": "123",
+						"ownerImg": "/images/avatar-7.png"
+					},
+					"found": "08.03.2022",
+					"specification": {
+						"residents": {
+							"field": "Residents",
+							"value": 10000,
+							"img": "/images/astronaut.png"
+						},
+						"soldiers": {
+							"field": "Soldiers",
+							"value": 22,
+							"img": "/images/lumburr.png"
+						},
+						"wood": {
+							"field": "Wood",
+							"value": 600,
+							"img": "/images/wood.png"
+						},
+						"gold": {
+							"field": "Gold",
+							"value": 100,
+							"img": "/images/gold.png"
+						},
+						"iron": {
+							"field": "Iron",
+							"value": 200,
+							"img": "/images/iron.png"
+						},
+						"stone": {
+							"field": "Stone",
+							"value": "Fire",
+							"img": "/images/stone.png"
+						}
+					}
+				}
+			}
+		],
+		"items": [
+			{
+				"id": "5d257678-ed0b-5c44-8def-225e31830716",
+				"nftType": "items",
+				"nftId": "078928",
+				"nftEthPrice": 0.1,
+				"nftName": "Gunny",
+				"nftImg": "/images/item-1.png",
+				"nftTrait": "new",
+				"similarNfts": [
+					"de98bccc-4586-5476-bc0b-30e053274e80",
+					"c7e2444c-b833-593f-9f0c-41d22f0e6309",
+					"3a20b98d-3168-5783-8bef-f40eb8561f3e",
+					"64357974-bbb2-506c-9b5b-d210b7c8977d",
+					"03e07ba9-a6c0-5b01-9265-1a8308717dbd"
+				],
+				"nftLevelRequirement": 5,
+				"history": [
+					{
+						"user": "@tranmautritam",
+						"date": "26.03.2022",
+						"time": "10:15am",
+						"userAvatar": "/images/avatar-2.png",
+						"actionType": "purchased",
+						"priceETH": "0.08"
+					}
+				],
+				"nftDetails": {
+					"ownedBy": {
+						"owner": "Keith Hessel",
+						"id": "123",
+						"ownerImg": "/images/avatar-7.png"
+					},
+					"usedBy": {
+						"user": "Astronaut",
+						"userImg": "/images/character-3.png",
+						"planet": "Earth"
+					},
+					"created": "08.03.2022",
+					"specification": {
+						"ammo": {
+							"field": "Ammo",
+							"value": 200,
+							"img": "/images/stat-1.png"
+						},
+						"speed": {
+							"field": "Speed",
+							"value": "1km/s",
+							"img": "/images/stat-6.png"
+						},
+						"firingRange": {
+							"field": "Firing range",
+							"value": "3km",
+							"img": "/images/stat-6.png"
+						},
+						"reuse": {
+							"field": "Reuse",
+							"value": "No",
+							"img": "/images/stat-5.png"
+						},
+						"waterproof": {
+							"field": "Waterproof",
+							"value": "Yes",
+							"img": "/images/stat-3.png"
+						},
+						"fireResistant": {
+							"field": "Fire resistant",
+							"value": "Unknown",
+							"img": "/images/stat-5.png"
+						}
+					}
+				}
+			},
+			{
+				"id": "de98bccc-4586-5476-bc0b-30e053274e80",
+				"nftType": "items",
+				"nftId": "078928",
+				"nftEthPrice": 0.1,
+				"nftName": "Gunny",
+				"nftImg": "/images/item-2.png",
+				"nftTrait": "new",
+				"similarNfts": [
+					"de98bccc-4586-5476-bc0b-30e053274e80",
+					"c7e2444c-b833-593f-9f0c-41d22f0e6309",
+					"3a20b98d-3168-5783-8bef-f40eb8561f3e",
+					"64357974-bbb2-506c-9b5b-d210b7c8977d",
+					"03e07ba9-a6c0-5b01-9265-1a8308717dbd"
+				],
+				"nftLevelRequirement": 5,
+				"history": [
+					{
+						"user": "@tranmautritam",
+						"date": "26.03.2022",
+						"time": "10:15am",
+						"userAvatar": "/images/avatar-5.png",
+						"actionType": "purchased",
+						"priceETH": "0.08"
+					}
+				],
+				"nftDetails": {
+					"ownedBy": {
+						"owner": "Keith Hessel",
+						"id": "123",
+						"ownerImg": "/images/avatar-6.png"
+					},
+					"usedBy": {
+						"user": "Aastronaut",
+						"userImg": "/images/character-8.png",
+						"planet": "Earth"
+					},
+					"created": "08.03.2022",
+					"specification": {
+						"ammo": {
+							"field": "Ammo",
+							"value": 200,
+							"img": "/images/stat-5.png"
+						},
+						"speed": {
+							"field": "Speed",
+							"value": "1km/s",
+							"img": "/images/stat-2.png"
+						},
+						"firingRange": {
+							"field": "Firing range",
+							"value": "3km",
+							"img": "/images/stat-1.png"
+						},
+						"reuse": {
+							"field": "Reuse",
+							"value": "No",
+							"img": "/images/stat-6.png"
+						},
+						"waterproof": {
+							"field": "Waterproof",
+							"value": "Yes",
+							"img": "/images/stat-6.png"
+						},
+						"fireResistant": {
+							"field": "Fire resistant",
+							"value": "Unknown",
+							"img": "/images/stat-1.png"
+						}
+					}
+				}
+			}
+		],
+		"bundles": [
+			{
+				"id": "c33fd051-a842-5ba8-b7c6-2bffaf956090",
+				"nftType": "bundles",
+				"nftId": "078928",
+				"nftEthPrice": 0.1,
+				"nftName": "Combo",
+				"nftImg": "/images/bundle-1.png",
+				"nftTrait": "new",
+				"similarNfts": [
+					"881befdd-d53c-501f-aaa7-5b324ab71d33",
+					"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+					"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+					"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+					"ead45871-9382-5e32-a8ab-7e25fab71661"
+				],
+				"nftLevelRequirement": 5,
+				"itemsInBundle": ["/images/item-8.png", "/images/item-2.png"],
+
+				"nftDetails": {
+					"ownedBy": {
+						"owner": "Keith Hessel",
+						"id": "123",
+						"ownerImg": "/images/avatar-3.png"
+					},
+					"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+					"specification": {
+						"ammo": {
+							"field": "Ammo",
+							"value": 200,
+							"img": "/images/stat-4.png"
+						},
+						"speed": {
+							"field": "Speed",
+							"value": "1km/s",
+							"img": "/images/stat-1.png"
+						},
+						"firingRange": {
+							"field": "Firing range",
+							"value": "3km",
+							"img": "/images/stat-4.png"
+						},
+						"reuse": {
+							"field": "Reuse",
+							"value": "No",
+							"img": "/images/stat-1.png"
+						},
+						"waterproof": {
+							"field": "Waterproof",
+							"value": "Yes",
+							"img": "/images/stat-2.png"
+						},
+						"fireResistant": {
+							"field": "Fire resistant",
+							"value": "Unknown",
+							"img": "/images/stat-4.png"
+						}
+					}
+				},
+				"history": [
+					{
+						"user": "@tranmautritam",
+						"date": "26.03.2022",
+						"time": "10:15am",
+						"userAvatar": "/images/avatar-6.png",
+						"actionType": "purchased",
+						"priceETH": "0.08"
+					}
+				]
+			},
+			{
+				"id": "881befdd-d53c-501f-aaa7-5b324ab71d33",
+				"nftType": "bundles",
+				"nftId": "078928",
+				"nftEthPrice": 0.1,
+				"nftName": "Combo",
+				"nftImg": "/images/bundle-2.png",
+				"nftTrait": "new",
+				"similarNfts": [
+					"881befdd-d53c-501f-aaa7-5b324ab71d33",
+					"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+					"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+					"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+					"ead45871-9382-5e32-a8ab-7e25fab71661"
+				],
+				"nftLevelRequirement": 5,
+				"itemsInBundle": ["/images/item-6.png", "/images/item-9.png"],
+
+				"nftDetails": {
+					"ownedBy": {
+						"owner": "Keith Hessel",
+						"id": "123",
+						"ownerImg": "/images/avatar-3.png"
+					},
+					"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+					"specification": {
+						"ammo": {
+							"field": "Ammo",
+							"value": 200,
+							"img": "/images/stat-4.png"
+						},
+						"speed": {
+							"field": "Speed",
+							"value": "1km/s",
+							"img": "/images/stat-1.png"
+						},
+						"firingRange": {
+							"field": "Firing range",
+							"value": "3km",
+							"img": "/images/stat-1.png"
+						},
+						"reuse": {
+							"field": "Reuse",
+							"value": "No",
+							"img": "/images/stat-6.png"
+						},
+						"waterproof": {
+							"field": "Waterproof",
+							"value": "Yes",
+							"img": "/images/stat-6.png"
+						},
+						"fireResistant": {
+							"field": "Fire resistant",
+							"value": "Unknown",
+							"img": "/images/stat-5.png"
+						}
+					}
+				},
+				"history": [
+					{
+						"user": "@tranmautritam",
+						"date": "26.03.2022",
+						"time": "10:15am",
+						"userAvatar": "/images/avatar-2.png",
+						"actionType": "purchased",
+						"priceETH": "0.08"
+					}
+				]
+			}
+		]
+	}
+}

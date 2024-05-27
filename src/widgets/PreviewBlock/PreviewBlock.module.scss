@@ -1,0 +1,82 @@
+@use "@/app/common";
+
+.previewBlock {
+	background-color: common.$custom-neutral-3;
+	padding-bottom: 150px;
+
+	.previewBlockContainer {
+		max-width: 1200px;
+		margin: 0 auto;
+
+		.previewBlockMain {
+			display: flex;
+
+			.previewBlockText {
+				display: flex;
+				flex-direction: column;
+				row-gap: 40px;
+				max-width: 490px;
+				position: relative;
+
+				.previewBlockTitle {
+					color: common.$custom-neutral-8;
+					font-weight: bold;
+					font-size: 64px;
+
+					.previewBlueTitle {
+						font-weight: bold;
+						color: common.$custom-pearl;
+					}
+				}
+
+				.previewBlockSubtitle {
+					color: common.$custom-neutral-5;
+					font-size: 24px;
+					font-weight: bold;
+				}
+
+				.button {
+					@include common.orange-button;
+				}
+
+				.image {
+					position: absolute;
+					top: 0;
+					left: 60%;
+				}
+			}
+		}
+
+		.previewBlockStat {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			gap: 75px;
+
+			.statItem {
+				display: flex;
+				column-gap: 20px;
+
+				.statText {
+					.statName {
+						color: common.$custom-neutral-5;
+						font-size: 16px;
+						font-weight: bold;
+					}
+
+					.statValue {
+						color: common.$custom-neutral-8;
+						font-size: 40px;
+						font-weight: bold;
+
+						span {
+							color: common.$custom-neutral-5;
+							font-size: 20px;
+							font-weight: bold;
+						}
+					}
+				}
+			}
+		}
+	}
+}

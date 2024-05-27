@@ -1,0 +1,41 @@
+@use "@/app/common";
+
+.nftNavigation {
+	padding: 64px 0;
+	background-color: common.$custom-neutral-2;
+
+	.nftNavigationContainer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		max-width: 1200px;
+		margin: 0 auto;
+
+		.nftNavigationMenu {
+			.nftNavigationList {
+				display: flex;
+				column-gap: 65px;
+
+				.nftNavigationItem {
+					cursor: pointer;
+					color: common.$custom-neutral-6;
+					list-style: none;
+					display: flex;
+					align-items: center;
+					column-gap: 10px;
+				}
+
+				.activeNavigationItem {
+					cursor: pointer;
+					color: common.$custom-neutral-8;
+					list-style: none;
+					display: flex;
+					align-items: center;
+					column-gap: 10px;
+					border-bottom: 2px solid common.$custom-pearl;
+					padding-bottom: 30px;
+				}
+			}
+		}
+	}
+}

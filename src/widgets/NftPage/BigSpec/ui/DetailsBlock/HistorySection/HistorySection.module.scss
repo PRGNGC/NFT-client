@@ -1,0 +1,56 @@
+@use "@/app/common.scss" as *;
+
+.historyBlock {
+	margin-top: 30px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	gap: 24px;
+
+	.historyItem {
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+
+		.historyUser {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			flex-direction: row;
+			gap: 12px;
+
+			.userCredentials {
+				.transactionType {
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 150%;
+					color: $custom-neutral-8;
+
+					.userTag {
+						font-weight: 700;
+						font-size: 16px;
+						line-height: 150%;
+						color: $custom-neutral-5;
+					}
+				}
+
+				.transactionTime {
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 133%;
+					letter-spacing: -0.02em;
+					color: $custom-neutral-5;
+				}
+			}
+		}
+
+		.transactionPrice {
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 140%;
+			letter-spacing: -0.02em;
+			text-align: center;
+			color: $custom-neutral-8;
+		}
+	}
+}

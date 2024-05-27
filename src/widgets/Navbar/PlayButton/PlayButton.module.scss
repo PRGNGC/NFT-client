@@ -1,0 +1,18 @@
+.buttonsBlock {
+	.playButton {
+		border-radius: 8px;
+		border: 2px solid #7f8596;
+		border: 2px solid rgb(127 133 150 / 30%);
+		color: #22252d;
+		padding: 8px 16px;
+		width: fit-content;
+		font-size: 14px;
+		font-weight: bold;
+		background-color: transparent;
+		cursor: pointer;
+
+		@media (width <= 375px) {
+			display: none;
+		}
+	}
+}

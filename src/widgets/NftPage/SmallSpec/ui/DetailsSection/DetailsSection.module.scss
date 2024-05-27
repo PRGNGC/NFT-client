@@ -1,0 +1,72 @@
+@use "@/app/common.scss" as *;
+
+.byBlock {
+	display: flex;
+	justify-content: space-between;
+
+	.ownedBy {
+		.ownedByTitle {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			color: $custom-neutral-5;
+		}
+
+		.ownedByContent {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+
+			.ownerCredentials {
+				.ownerName {
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 150%;
+					text-align: center;
+					color: $custom-neutral-8;
+				}
+
+				.ownerId {
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 133%;
+					letter-spacing: -0.02em;
+					color: $custom-neutral-5;
+				}
+			}
+		}
+	}
+
+	.created {
+		.createdTitle {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			color: $custom-neutral-5;
+		}
+
+		.createdContent {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+
+			.createdCredentials {
+				.createdPlanet {
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 133%;
+					letter-spacing: -0.02em;
+					color: $custom-neutral-5;
+				}
+
+				.createdCity {
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 150%;
+					text-align: center;
+					color: $custom-neutral-8;
+				}
+			}
+		}
+	}
+}

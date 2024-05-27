@@ -1,0 +1,71 @@
+@use "@/app/common.scss" as *;
+
+.mainInfo {
+	.nftId {
+		border-radius: 6px;
+		padding: 3px 6px;
+		background: rgb(48 178 140 / 25%);
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 171%;
+		text-align: center;
+		color: $custom-neutral-8;
+	}
+
+	.nftNamePrice {
+		display: flex;
+		justify-content: space-between;
+
+		.nftName {
+			font-weight: 700;
+			font-size: 64px;
+			line-height: 112%;
+			letter-spacing: -0.03em;
+			color: $custom-neutral-8;
+		}
+
+		.nftPrice {
+			display: flex;
+			gap: 40px;
+
+			.pricesBlock {
+				text-align: right;
+
+				.ethPrice {
+					display: block;
+					font-weight: 700;
+					font-size: 36px;
+					line-height: 122%;
+					letter-spacing: -0.02em;
+					color: $custom-green;
+					margin-left: auto;
+				}
+
+				.usdPrice {
+					font-weight: 500;
+					font-size: 18px;
+					line-height: 156%;
+					letter-spacing: -0.02em;
+					text-align: center;
+					color: $custom-neutral-5;
+					margin-left: auto;
+				}
+			}
+
+			.purchaseButton {
+				font-weight: 700;
+				font-size: 16px;
+				line-height: 150%;
+				text-align: center;
+				color: #fff;
+				border-radius: 12px;
+				padding: 16px 32px;
+				width: 175px;
+				height: 56px;
+				background: $custom-red;
+				border: 0;
+				cursor: pointer;
+			}
+		}
+	}
+}

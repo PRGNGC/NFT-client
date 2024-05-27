@@ -1,0 +1,218 @@
+@use "@/app/common.scss" as *;
+
+.descriptionSection {
+	.textBlock {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 156%;
+		letter-spacing: -0.02em;
+		color: $custom-neutral-6;
+	}
+
+	hr {
+		margin: 40px 0;
+	}
+
+	.byBlock {
+		display: flex;
+		justify-content: space-between;
+
+		.ownedBy {
+			display: flex;
+			align-items: flex-start;
+			justify-content: flex-start;
+			flex-direction: column;
+			gap: 12px;
+
+			.ownedByTitle {
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 171%;
+				color: $custom-neutral-5;
+			}
+
+			.ownedByContent {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				flex-direction: row;
+				gap: 12px;
+
+				.ownerCredentials {
+					.ownerName {
+						font-weight: 700;
+						font-size: 16px;
+						line-height: 150%;
+						text-align: center;
+						color: $custom-neutral-8;
+					}
+
+					.ownerId {
+						font-weight: 600;
+						font-size: 12px;
+						line-height: 133%;
+						letter-spacing: -0.02em;
+						color: $custom-neutral-5;
+					}
+				}
+			}
+		}
+
+		.location {
+			display: flex;
+			align-items: flex-start;
+			justify-content: flex-start;
+			flex-direction: column;
+			gap: 12px;
+
+			.locationTitle {
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 171%;
+				color: $custom-neutral-5;
+			}
+
+			.locationContent {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				flex-direction: row;
+				gap: 12px;
+
+				.locationCredentials {
+					.locationPlanet {
+						font-weight: 700;
+						font-size: 16px;
+						line-height: 150%;
+						text-align: center;
+						color: $custom-neutral-8;
+					}
+
+					.locationCity {
+						font-weight: 600;
+						font-size: 12px;
+						line-height: 133%;
+						letter-spacing: -0.02em;
+						color: $custom-neutral-5;
+					}
+				}
+			}
+		}
+
+		.usedBy {
+			.usedByTitle {
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 171%;
+				color: $custom-neutral-5;
+			}
+
+			.usedByContent {
+				margin-top: 12px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				flex-direction: row;
+				gap: 12px;
+
+				.usedByCredentials {
+					.usedByUser {
+						font-weight: 700;
+						font-size: 16px;
+						line-height: 150%;
+						text-align: center;
+						color: $custom-neutral-8;
+					}
+
+					.usedByPlanet {
+						font-weight: 600;
+						font-size: 12px;
+						line-height: 133%;
+						letter-spacing: -0.02em;
+						color: $custom-neutral-5;
+					}
+				}
+			}
+		}
+	}
+
+	.statBlock {
+		.statBlockHeader {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			color: $custom-neutral-5;
+		}
+
+		.statContent {
+			display: flex;
+			row-gap: 32px;
+			flex-wrap: wrap;
+
+			.statItem {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				gap: 16px;
+				flex-basis: 180px;
+
+				.statCredentials {
+					.statPlanet {
+						font-weight: 600;
+						font-size: 12px;
+						line-height: 133%;
+						letter-spacing: -0.02em;
+						color: $custom-neutral-5;
+					}
+
+					.statCity {
+						font-weight: 700;
+						font-size: 14px;
+						line-height: 171%;
+						color: $custom-neutral-8;
+					}
+				}
+			}
+		}
+	}
+
+	.propertyBlock {
+		.propertyBlockHeader {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			color: $custom-neutral-5;
+		}
+
+		.propertyContent {
+			display: flex;
+			flex-wrap: wrap;
+			row-gap: 32px;
+
+			.propertyItem {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				gap: 16px;
+				flex-basis: 180px;
+
+				.propertyCredentials {
+					.propertyPlanet {
+						font-weight: 600;
+						font-size: 12px;
+						line-height: 133%;
+						letter-spacing: -0.02em;
+						color: $custom-neutral-5;
+					}
+
+					.propertyCity {
+						font-weight: 700;
+						font-size: 14px;
+						line-height: 171%;
+						color: $custom-neutral-8;
+					}
+				}
+			}
+		}
+	}
+}

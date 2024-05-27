@@ -1,0 +1,38 @@
+@use "@/app/common.scss" as *;
+
+.sectionsBlock {
+	margin-top: 64px;
+
+	.section {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-radius: 12px;
+		padding: 4px;
+		background-color: $custom-neutral-11;
+
+		.commonSection {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			text-align: center;
+			cursor: pointer;
+			padding: 12px 0;
+			color: $custom-neutral-6;
+			flex-grow: 1;
+		}
+
+		.activeSection {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			text-align: center;
+			color: $custom-neutral-8;
+			border-radius: 8px;
+			padding: 12px 0;
+			background-color: $custom-neutral-2;
+			flex-grow: 1;
+			cursor: pointer;
+		}
+	}
+}

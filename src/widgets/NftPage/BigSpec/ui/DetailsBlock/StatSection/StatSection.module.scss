@@ -1,0 +1,42 @@
+@use "@/app/common.scss" as *;
+
+.statBlock {
+	.statBlockHeader {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 171%;
+		color: $custom-neutral-5;
+	}
+
+	.statContent {
+		margin-top: 20px;
+		display: flex;
+		row-gap: 32px;
+		flex-wrap: wrap;
+
+		.statItem {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			gap: 16px;
+			flex-basis: 180px;
+
+			.statCredentials {
+				.statPlanet {
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 133%;
+					letter-spacing: -0.02em;
+					color: $custom-neutral-5;
+				}
+
+				.statCity {
+					font-weight: 700;
+					font-size: 14px;
+					line-height: 171%;
+					color: $custom-neutral-8;
+				}
+			}
+		}
+	}
+}

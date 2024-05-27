@@ -1,0 +1,1 @@
+export { SmallNftImage } from "./SmallNftImage";

@@ -1,0 +1,977 @@
+[
+	{
+		"id": "c33fd051-a842-5ba8-b7c6-2bffaf956090",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-1.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-8.png", "/images/item-2.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-3.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-4.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-1.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-4.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-1.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-2.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-4.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-6.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "881befdd-d53c-501f-aaa7-5b324ab71d33",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-2.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-6.png", "/images/item-9.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-3.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-4.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-1.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-1.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-6.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-6.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-5.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-2.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-3.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-6.png", "/images/item-10.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-3.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-6.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-2.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-2.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-3.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-3.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-2.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-6.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "3b06a358-585a-5a85-aa51-390d1c8e7e39",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-4.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-1.png", "/images/item-9.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-2.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-2.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-5.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-2.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-4.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-3.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-6.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-6.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-5.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-3.png", "/images/item-12.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-5.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-2.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-3.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-6.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-6.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-3.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-4.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-3.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "ead45871-9382-5e32-a8ab-7e25fab71661",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-6.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-3.png", "/images/item-8.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-2.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-5.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-4.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-4.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-1.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-3.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-1.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-7.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "2bc681a5-8591-57a8-8c26-7d7825bc0013",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-7.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-4.png", "/images/item-8.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-9.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-4.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-4.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-6.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-1.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-1.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-1.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-7.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "2a239060-032a-5381-bc2f-00ef77253efa",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-8.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-5.png", "/images/item-11.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-5.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-2.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-5.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-5.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-3.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-1.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-3.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-2.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "5836e7e6-bac0-58c1-8a28-5a95b6500ffb",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-1.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-2.png", "/images/item-8.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-9.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-1.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-1.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-2.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-2.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-3.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-4.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-7.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "f6dba365-0cb5-5d57-a46e-f7c830c79e51",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-2.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-6.png", "/images/item-9.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-6.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-1.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-4.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-6.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-4.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-3.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-6.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-1.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "86825d51-599b-5cc6-95b2-580deb6e8cd7",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-3.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-6.png", "/images/item-10.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-1.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-4.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-3.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-6.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-3.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-5.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-4.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-2.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "3e161865-a787-5cf6-a1d8-fd525fa87e66",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-4.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-1.png", "/images/item-9.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-9.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-5.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-6.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-5.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-2.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-3.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-4.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-3.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "4f7ec7ba-9d10-5b4b-8968-fa19a562b190",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-5.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-3.png", "/images/item-12.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-5.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-2.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-4.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-4.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-4.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-3.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-3.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-5.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "35e3805a-f3e5-56b6-99e0-be838e85cb87",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-6.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-3.png", "/images/item-8.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-9.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-5.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-3.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-3.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-3.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-1.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-3.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-7.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	},
+	{
+		"id": "892673e2-ddda-56c7-9c95-262b609e8760",
+		"nftType": "bundles",
+		"nftId": "078928",
+		"nftEthPrice": 0.1,
+		"nftName": "Combo",
+		"nftImg": "/images/bundle-7.png",
+		"nftTrait": "new",
+		"similarNfts": [
+			"881befdd-d53c-501f-aaa7-5b324ab71d33",
+			"645020a9-b5d7-59e3-97fe-7ba0125b1d1f",
+			"3b06a358-585a-5a85-aa51-390d1c8e7e39",
+			"5fcd20bf-c6b6-56bb-bcc9-74e3ff9da77e",
+			"ead45871-9382-5e32-a8ab-7e25fab71661"
+		],
+		"nftLevelRequirement": 5,
+		"itemsInBundle": ["/images/item-4.png", "/images/item-8.png"],
+
+		"nftDetails": {
+			"ownedBy": {
+				"owner": "Keith Hessel",
+				"id": "123",
+				"ownerImg": "/images/avatar-1.png"
+			},
+			"usedFor": ["/images/astronaut.png", "/images/lumburr.png"],
+			"specification": {
+				"ammo": { "field": "Ammo", "value": 200, "img": "/images/stat-2.png" },
+				"speed": {
+					"field": "Speed",
+					"value": "1km/s",
+					"img": "/images/stat-6.png"
+				},
+				"firingRange": {
+					"field": "Firing range",
+					"value": "3km",
+					"img": "/images/stat-5.png"
+				},
+				"reuse": {
+					"field": "Reuse",
+					"value": "No",
+					"img": "/images/stat-4.png"
+				},
+				"waterproof": {
+					"field": "Waterproof",
+					"value": "Yes",
+					"img": "/images/stat-5.png"
+				},
+				"fireResistant": {
+					"field": "Fire resistant",
+					"value": "Unknown",
+					"img": "/images/stat-1.png"
+				}
+			}
+		},
+		"history": [
+			{
+				"user": "@tranmautritam",
+				"date": "26.03.2022",
+				"time": "10:15am",
+				"userAvatar": "/images/avatar-3.png",
+				"actionType": "purchased",
+				"priceETH": "0.08"
+			}
+		]
+	}
+]

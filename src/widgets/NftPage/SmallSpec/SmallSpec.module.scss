@@ -1,0 +1,90 @@
+@use "@/app/common" as *;
+
+.smallSpecBlock {
+	width: max-content;
+	max-width: 540px;
+	min-width: 540px;
+	color: $custom-neutral-8;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+
+	.smallSpecCommonInfo {
+		.commonInfoTraitId {
+			display: flex;
+			gap: 8px;
+
+			.commonInfoId {
+				background-color: rgb(48 178 140 / 25%);
+				border-radius: 6px;
+				padding: 3px 6px;
+			}
+
+			.commonInfoTrait {
+				background-color: rgb(48 178 140 / 100%);
+				border-radius: 6px;
+				padding: 3px 6px;
+				color: white;
+			}
+		}
+
+		.commonInfoPricesName {
+			display: flex;
+			justify-content: space-between;
+
+			.commonInfoName {
+				font-weight: 700;
+				font-size: 64px;
+				line-height: 112%;
+				letter-spacing: -0.03em;
+			}
+
+			.commonInfoPrices {
+				.ethPrice {
+					display: block;
+					font-weight: 700;
+					font-size: 36px;
+					line-height: 122%;
+					letter-spacing: -0.02em;
+					color: $custom-green;
+				}
+
+				.dollarPrice {
+					display: block;
+					font-weight: 500;
+					font-size: 18px;
+					line-height: 156%;
+					letter-spacing: -0.02em;
+					text-align: center;
+					color: $custom-neutral-10;
+				}
+			}
+		}
+	}
+
+	.smallSpecLinks {
+		display: flex;
+		justify-content: space-between;
+
+		.smallSpecPurchaseButton {
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 150%;
+			text-align: center;
+			color: #fff;
+			border-radius: 12px;
+			padding: 16px 32px;
+			width: 175px;
+			height: 56px;
+			background: $custom-red;
+			border: 0;
+			cursor: pointer;
+		}
+
+		.smallSpecLink {
+			border-radius: 48px;
+			padding: 16px;
+			background-color: $custom-neutral-4;
+		}
+	}
+}

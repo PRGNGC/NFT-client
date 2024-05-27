@@ -1,0 +1,25 @@
+$custom-red: #e45f35;
+$custom-green: #30b28c;
+$custom-yellow: #fdc24f;
+$custom-violet: #1f3d8b;
+$custom-pearl: #9f73e6;
+$custom-neutral-2: #fcfcf9;
+$custom-neutral-3: #f7f7f0;
+$custom-neutral-4: #e7e7e1;
+$custom-neutral-5: #7f8596;
+$custom-neutral-6: #494e5b;
+$custom-neutral-7: #31343f;
+$custom-neutral-8: #22252d;
+$custom-neutral-9: #ebe3d9;
+$custom-neutral-10: #7f8596;
+$custom-neutral-11: #f3f3f0;
+
+@mixin orange-button {
+	background-color: $custom-red;
+	padding: 16px 32px;
+	color: white;
+	border-radius: 12px;
+	width: fit-content;
+	font-size: 16px;
+	font-weight: bold;
+}

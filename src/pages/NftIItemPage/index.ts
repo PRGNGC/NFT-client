@@ -1,0 +1,1 @@
+export { NftItemPage } from "./NftItemPage";
