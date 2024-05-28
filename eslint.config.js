@@ -30,6 +30,7 @@ export default tseslint.config(
 			".next",
 			".vscode",
 			"next.config.mjs",
+			"commitlint.config.js",
 			"next-env.d.ts",
 			"eslint.config.js"
 		]
