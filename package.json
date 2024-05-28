@@ -61,6 +61,11 @@
 		"*.{js,jsx,ts,tsx}": "npx eslint .",
 		"*.{js,jsx,ts,tsx,html,css}": "npx prettier --check"
 	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
+	},
 	"description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
 	"main": "index.js",
 	"author": "",
