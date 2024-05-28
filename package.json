@@ -10,9 +10,9 @@
 		"prettier": "npx prettier . --check",
 		"prettier:write": "npx prettier . --write",
 		"lint": "npx eslint .",
-		"lint:fix": "npx eslint 'src/**/*.{ts, tsx}' --fix",
-		"stylelint": "npx stylelint 'src/**/*.{css, scss}'",
-		"stylelint:fix": "npx stylelint 'src/**/*.{scss, css}' --fix",
+		"lint:fix": "npx eslint . --fix",
+		"stylelint": "npx stylelint .",
+		"stylelint:fix": "npx stylelint . --fix",
 		"lint-staged": "npx lint-staged --concurrent false",
 		"prepare": "husky install"
 	},
