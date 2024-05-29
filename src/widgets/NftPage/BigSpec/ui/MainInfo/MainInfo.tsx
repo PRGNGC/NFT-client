@@ -1,5 +1,6 @@
 import styles from "./MainInfo.module.scss";
 import type { INft } from "@/entities/nft/api/types";
+import { BuyNft } from "@/features/nft/BuyNft";
 
 interface IMainInfo {
 	nftItem: INft;
@@ -17,7 +18,7 @@ export function MainInfo({ nftItem }: IMainInfo) {
 							<span className={styles.ethPrice}>{nftItem.nftEthPrice} ETH</span>
 							<span className={styles.usdPrice}>$ {nftItem.nftEthPrice}</span>
 						</div>
-						<button className={styles.purchaseButton}>Purchase now</button>
+						<BuyNft nft={nftItem} />
 					</div>
 				</div>
 			</div>

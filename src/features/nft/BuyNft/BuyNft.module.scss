@@ -1,0 +1,14 @@
+@use "@/app/common.scss" as *;
+
+.buyButton {
+	border-radius: 12px;
+	padding: 16px 32px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #fff;
+	background-color: $custom-red;
+	border: none;
+	cursor: pointer;
+}

@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { INft } from "@/entities/nft/api/types";
 import { LinkSvgImage } from "@/shared/ui/icons/LinkSvgImage";
 import { SectionsBlock } from "./ui/SectionsBlock";
+import { BuyNft } from "@/features/nft/BuyNft";
 
 interface SmallSpecProps {
 	nftInfo: INft;
@@ -28,7 +29,8 @@ export function SmallSpec({ nftInfo }: SmallSpecProps) {
 				</div>
 			</div>
 			<div className={styles.smallSpecLinks}>
-				<button className={styles.smallSpecPurchaseButton}>Purchase now</button>
+				<BuyNft nft={nftInfo} />
+				{/* <button className={styles.smallSpecPurchaseButton}>Purchase now</button> */}
 				<Link
 					className={styles.smallSpecLink}
 					href="/"

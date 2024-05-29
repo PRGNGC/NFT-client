@@ -1,4 +1,4 @@
-"use client";
+import type { INft } from "./types";
 
 export async function getNfts(
 	{ pageParam }: { pageParam: number },
@@ -16,5 +16,22 @@ export async function getNfts(
 		},
 		credentials: "include"
 	});
+	return await response.json();
+}
+
+export async function buyNft(nft: INft) {
+	const url = "http://localhost:4000/api/own/characters/add";
+
+	const response = await fetch(url, {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json"
+		},
+		body: JSON.stringify({
+			nft: nft
+		}),
+		credentials: "include"
+	});
+
 	return await response.json();
 }
