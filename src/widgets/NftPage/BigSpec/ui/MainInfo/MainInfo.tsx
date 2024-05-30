@@ -3,7 +3,6 @@ import { useState } from "react";
 import styles from "./MainInfo.module.scss";
 import type { INft } from "@/entities/nft/api/types";
 import { BuyNftModal } from "@/widgets/BuyNftModal";
-import { PurchaseConfirmedModal } from "@/widgets/PurchaseConfirmedModal";
 import { createPortal } from "react-dom";
 
 interface IMainInfo {
@@ -12,7 +11,6 @@ interface IMainInfo {
 
 export function MainInfo({ nftItem }: IMainInfo) {
 	const [buyModalOpen, setBuyModalOpen] = useState<boolean>(false);
-	const [confirmedModalOpen, setConfirmedModalOpen] = useState<boolean>(false);
 
 	return (
 		<>
@@ -29,20 +27,12 @@ export function MainInfo({ nftItem }: IMainInfo) {
 							createPortal(
 								<BuyNftModal
 									nft={nftItem}
-									onCloseBuyModal={() => setBuyModalOpen(false)}
-									onOpenConfirmedModal={() => setBuyModalOpen(true)}
-								/>,
-								document.body
-							)}
-						{confirmedModalOpen &&
-							createPortal(
-								<PurchaseConfirmedModal
-									nft={nftItem}
-									onClose={() => setConfirmedModalOpen(false)}
+									onCloseBuyModal={setBuyModalOpen}
 								/>,
 								document.body
 							)}
 						<button
+							className={styles.purchaseButton}
 							onClick={() => {
 								document.body.style.overflowY = "hidden";
 								setBuyModalOpen(true);

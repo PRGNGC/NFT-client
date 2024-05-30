@@ -1,1 +1,0 @@
-export { PurchaseConfirmedModal } from "./PurchaseConfirmedModal";

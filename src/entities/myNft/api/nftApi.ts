@@ -33,5 +33,5 @@ export async function buyNft(nft: INft) {
 		credentials: "include"
 	});
 
-	return await response.json();
+	return response;
 }

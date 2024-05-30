@@ -1,50 +1,50 @@
 "use client";
-import { MouseEventHandler } from "react";
+import { useState } from "react";
+import { Dispatch, SetStateAction } from "react";
 import styles from "./BuyNftModal.module.scss";
 import type { INft } from "@/entities/nft/api/types";
-import { BuyNft } from "@/features/nft/BuyNft";
+import { CrossSvg } from "@/shared/ui/icons/CrossSvg";
+import { FirstStage } from "./ui/FirstStage";
+import { SecondStage } from "./ui/SecondStage";
 
 interface IBuyNftModal {
 	nft: INft;
-	onCloseBuyModal: MouseEventHandler<HTMLButtonElement>;
-	onOpenConfirmedModal: MouseEventHandler<HTMLParagraphElement>;
+	onCloseBuyModal: Dispatch<SetStateAction<boolean>>;
 }
 
-export function BuyNftModal({
-	nft,
-	onCloseBuyModal,
-	onOpenConfirmedModal
-}: IBuyNftModal) {
+export function BuyNftModal({ nft, onCloseBuyModal }: IBuyNftModal) {
+	const [currentStage, setCurrentStage] = useState<number>(1);
+	const [response, setResponse] = useState<number>(0);
+
 	return (
 		<div className={styles.modalWrapper}>
 			<div className={styles.modalBlock}>
-				<div className={styles.modalHeader}>
+				<span
+					className={styles.closeModalBtn}
+					onClick={() => {
+						onCloseBuyModal(false);
+					}}
+				>
+					<CrossSvg />
+				</span>
+				{currentStage === 1 && (
+					<FirstStage
+						nft={nft}
+						onChange={() =>
+							setCurrentStage((prevCurrentStage) => prevCurrentStage + 1)
+						}
+						onResponse={setResponse}
+					/>
+				)}
+				{currentStage === 2 && <SecondStage status={response} />}
+				{/* <div className={styles.modalHeader}>
 					<p className={styles.modalTitle}>Confirm purchase</p>
-					<span onClick={onCloseBuyModal}>
-						<svg
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								d="M6 18L18 6"
-								stroke="#494E5B"
-								stroke-width="1.5"
-								stroke-miterlimit="10"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							/>
-							<path
-								d="M18 18L6 6"
-								stroke="#494E5B"
-								stroke-width="1.5"
-								stroke-miterlimit="10"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							/>
-						</svg>
+					<span
+						onClick={() => {
+							onCloseBuyModal(false);
+						}}
+					>
+						<CrossSvg />
 					</span>
 				</div>
 				<div className={styles.modalNftInfo}>
@@ -54,41 +54,25 @@ export function BuyNftModal({
 				<div className={styles.modalCurrenciesComparison}>
 					<div className={styles.priceTagTitle}>
 						<span>
-							<svg
-								width="24"
-								height="24"
-								viewBox="0 0 24 24"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									d="M12 17V16M14.0833 9.09091C13.6667 8.43636 12.8333 8 11.9167 8C10.5833 8 9.5 8.94545 9.5 10.1818C9.5 10.1818 9.5 12 12 12C14.5 12 14.5 13.8182 14.5 13.8182C14.5 15.0545 13.4167 16 12.0833 16C11.1667 16 10.3333 15.5636 9.91666 14.9091M12 8V7"
-									stroke="#494E5B"
-									stroke-width="1.5"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								/>
-								<path
-									d="M12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3Z"
-									stroke="#494E5B"
-									stroke-width="1.5"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								/>
-							</svg>
+							<DollarSignSvg />
 						</span>
 						<p className={styles.priceTitle}>Price</p>
 					</div>
 					<p className={styles.currenciesComparison}>1ETH = $2000.0</p>
 				</div>
-				{/* <button className={styles.confirmPurchaseBtn}>Confirm purchase</button> */}
-				<p onClick={onOpenConfirmedModal}>
+				<p
+					style={{ color: "black" }}
+					onClick={() => {
+						onCloseBuyModal(false);
+						onOpenConfirmedModal(true);
+					}}
+				>
 					<BuyNft nft={nft} />
 				</p>
 				<div className={styles.modalFooter}>
 					Corrupti et voluptas. Ut ipsum 0,009 ETH fugiat odio. Impedit ullam
 					vel et est rror enim.
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

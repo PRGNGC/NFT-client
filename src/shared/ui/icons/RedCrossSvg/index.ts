@@ -1,0 +1,1 @@
+export { RedCrossSvg } from "./RedCrossSvg";

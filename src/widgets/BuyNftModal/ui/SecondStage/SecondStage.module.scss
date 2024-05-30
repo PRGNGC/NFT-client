@@ -1,0 +1,49 @@
+@use "@/app/common.scss" as *;
+
+.secondStageContainer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	gap: 24px;
+
+	.statusSign {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 128px;
+		height: 128px;
+		border-radius: 50%;
+		background-color: rgba(48 178 140 / 20%);
+	}
+
+	.secondStageTitle {
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 125%;
+		letter-spacing: -0.02em;
+		text-align: center;
+		color: $custom-neutral-8;
+	}
+
+	.secondStageText {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 156%;
+		letter-spacing: -0.02em;
+		text-align: center;
+		color: $custom-neutral-5;
+	}
+
+	.secondStageBtn {
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 150%;
+		text-align: center;
+		color: #fff;
+		border-radius: 12px;
+		padding: 16px 32px;
+		background-color: $custom-red;
+		border: none;
+	}
+}

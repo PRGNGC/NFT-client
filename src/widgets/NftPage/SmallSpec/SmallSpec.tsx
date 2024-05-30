@@ -1,15 +1,21 @@
+"use client";
+import { useState } from "react";
 import styles from "./SmallSpec.module.scss";
 import Link from "next/link";
 import type { INft } from "@/entities/nft/api/types";
 import { LinkSvgImage } from "@/shared/ui/icons/LinkSvgImage";
 import { SectionsBlock } from "./ui/SectionsBlock";
-import { BuyNft } from "@/features/nft/BuyNft";
+import { createPortal } from "react-dom";
+import { BuyNftModal } from "@/widgets/BuyNftModal";
+import { PurchaseConfirmedModal } from "@/widgets/PurchaseConfirmedModal";
 
 interface SmallSpecProps {
 	nftInfo: INft;
 }
 
 export function SmallSpec({ nftInfo }: SmallSpecProps) {
+	const [buyModalOpen, setBuyModalOpen] = useState<boolean>(false);
+	const [confirmedModalOpen, setConfirmedModalOpen] = useState<boolean>(false);
 	return (
 		<div className={styles.smallSpecBlock}>
 			<div className={styles.smallSpecCommonInfo}>
@@ -29,8 +35,32 @@ export function SmallSpec({ nftInfo }: SmallSpecProps) {
 				</div>
 			</div>
 			<div className={styles.smallSpecLinks}>
-				<BuyNft nft={nftInfo} />
-				{/* <button className={styles.smallSpecPurchaseButton}>Purchase now</button> */}
+				{buyModalOpen &&
+					createPortal(
+						<BuyNftModal
+							nft={nftInfo}
+							onCloseBuyModal={setBuyModalOpen}
+							onOpenConfirmedModal={setConfirmedModalOpen}
+						/>,
+						document.body
+					)}
+				{confirmedModalOpen &&
+					createPortal(
+						<PurchaseConfirmedModal
+							nft={nftInfo}
+							onClose={() => setConfirmedModalOpen(false)}
+						/>,
+						document.body
+					)}
+				<button
+					className={styles.smallSpecPurchaseButton}
+					onClick={() => {
+						document.body.style.overflowY = "hidden";
+						setBuyModalOpen(true);
+					}}
+				>
+					Purchase now
+				</button>
 				<Link
 					className={styles.smallSpecLink}
 					href="/"
