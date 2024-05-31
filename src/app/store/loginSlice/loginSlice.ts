@@ -2,10 +2,12 @@ import { createSlice } from "@reduxjs/toolkit";
 
 interface ILoginSlice {
 	accessToken: string | null;
+	expiresAt: number | null;
 }
 
 const initialState: ILoginSlice = {
-	accessToken: null
+	accessToken: null,
+	expiresAt: null
 };
 
 const loginSlice = createSlice({
@@ -13,10 +15,14 @@ const loginSlice = createSlice({
 	initialState,
 	reducers: {
 		login: (state, action) => {
-			state.accessToken = action.payload;
+			state.accessToken = action.payload[0];
+			console.log("state.accessToken:", state.accessToken);
+			state.expiresAt = action.payload[1];
+			console.log("state.expiresAt:", state.expiresAt);
 		},
 		logout: (state) => {
 			state.accessToken = null;
+			state.expiresAt = null;
 		}
 	}
 });

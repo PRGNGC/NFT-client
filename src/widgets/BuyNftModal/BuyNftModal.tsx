@@ -30,49 +30,11 @@ export function BuyNftModal({ nft, onCloseBuyModal }: IBuyNftModal) {
 				{currentStage === 1 && (
 					<FirstStage
 						nft={nft}
-						onChange={() =>
-							setCurrentStage((prevCurrentStage) => prevCurrentStage + 1)
-						}
+						onChange={setCurrentStage}
 						onResponse={setResponse}
 					/>
 				)}
 				{currentStage === 2 && <SecondStage status={response} />}
-				{/* <div className={styles.modalHeader}>
-					<p className={styles.modalTitle}>Confirm purchase</p>
-					<span
-						onClick={() => {
-							onCloseBuyModal(false);
-						}}
-					>
-						<CrossSvg />
-					</span>
-				</div>
-				<div className={styles.modalNftInfo}>
-					<p className={styles.nftName}>{nft.nftName}</p>
-					<p className={styles.nftEthPrice}>{nft.nftEthPrice}ETH</p>
-				</div>
-				<div className={styles.modalCurrenciesComparison}>
-					<div className={styles.priceTagTitle}>
-						<span>
-							<DollarSignSvg />
-						</span>
-						<p className={styles.priceTitle}>Price</p>
-					</div>
-					<p className={styles.currenciesComparison}>1ETH = $2000.0</p>
-				</div>
-				<p
-					style={{ color: "black" }}
-					onClick={() => {
-						onCloseBuyModal(false);
-						onOpenConfirmedModal(true);
-					}}
-				>
-					<BuyNft nft={nft} />
-				</p>
-				<div className={styles.modalFooter}>
-					Corrupti et voluptas. Ut ipsum 0,009 ETH fugiat odio. Impedit ullam
-					vel et est rror enim.
-				</div> */}
 			</div>
 		</div>
 	);

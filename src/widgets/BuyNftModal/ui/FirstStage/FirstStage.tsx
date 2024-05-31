@@ -1,12 +1,12 @@
 import styles from "./FirstStage.module.scss";
 import { DollarSignSvg } from "@/shared/ui/icons/DollarSignSvg";
-import { Dispatch, MouseEventHandler, SetStateAction } from "react";
+import { Dispatch, SetStateAction } from "react";
 import type { INft } from "@/entities/nft/api/types";
 import { BuyNft } from "@/features/nft/BuyNft";
 
 interface IFirstStage {
 	nft: INft;
-	onChange: MouseEventHandler<HTMLParagraphElement>;
+	onChange: Dispatch<SetStateAction<number>>;
 	onResponse: Dispatch<SetStateAction<number>>;
 }
 
@@ -29,15 +29,11 @@ export function FirstStage({ nft, onChange, onResponse }: IFirstStage) {
 				</div>
 				<p className={styles.currenciesComparison}>1ETH = $2000.0</p>
 			</div>
-			<p
-				style={{ color: "black" }}
-				onClick={onChange}
-			>
-				<BuyNft
-					nft={nft}
-					onResponse={onResponse}
-				/>
-			</p>
+			<BuyNft
+				nft={nft}
+				onResponse={onResponse}
+				onToggle={onChange}
+			/>
 			<div className={styles.modalFooter}>
 				Corrupti et voluptas. Ut ipsum 0,009 ETH fugiat odio. Impedit ullam vel
 				et est rror enim.

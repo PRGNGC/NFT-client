@@ -18,9 +18,10 @@ export function LoginForm() {
 
 		const data = await res.json();
 		const responseStatus = res.status;
+		console.log("handleAddSubmit ~ data:", data.expiresAt);
 
 		if (responseStatus === 200) {
-			dispatch(login(data.accessToken));
+			dispatch(login([data.accessToken, data.expiresAt]));
 			router.push("/profile");
 		}
 	}

@@ -4,6 +4,7 @@ import styles from "./MainInfo.module.scss";
 import type { INft } from "@/entities/nft/api/types";
 import { BuyNftModal } from "@/widgets/BuyNftModal";
 import { createPortal } from "react-dom";
+import { accessTokenValid } from "@/shared/utils/accessTokenValid";
 
 interface IMainInfo {
 	nftItem: INft;
@@ -11,6 +12,8 @@ interface IMainInfo {
 
 export function MainInfo({ nftItem }: IMainInfo) {
 	const [buyModalOpen, setBuyModalOpen] = useState<boolean>(false);
+
+	const accessTokenValidity = accessTokenValid();
 
 	return (
 		<>
@@ -34,6 +37,10 @@ export function MainInfo({ nftItem }: IMainInfo) {
 						<button
 							className={styles.purchaseButton}
 							onClick={() => {
+								if (!accessTokenValidity) {
+									alert("You must be logged in");
+									return;
+								}
 								document.body.style.overflowY = "hidden";
 								setBuyModalOpen(true);
 							}}
