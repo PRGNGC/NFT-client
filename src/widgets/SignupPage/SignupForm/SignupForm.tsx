@@ -17,10 +17,10 @@ export function SignupForm() {
 	async function handleAddSubmit() {
 		const response = await signupApi(loginInfo, password, name);
 
-		const { accessToken } = await response.json();
+		const { accessToken, expiresAt } = await response.json();
 		const responseStatus = response.status;
 		if (responseStatus === 200) {
-			dispatch(login(accessToken));
+			dispatch(login([accessToken, expiresAt]));
 			router.push("/profile");
 		}
 	}

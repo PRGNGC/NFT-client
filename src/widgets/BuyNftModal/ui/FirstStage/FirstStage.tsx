@@ -7,7 +7,7 @@ import { BuyNft } from "@/features/nft/BuyNft";
 interface IFirstStage {
 	nft: INft;
 	onChange: Dispatch<SetStateAction<number>>;
-	onResponse: Dispatch<SetStateAction<number>>;
+	onResponse: Dispatch<SetStateAction<Response | null>>;
 }
 
 export function FirstStage({ nft, onChange, onResponse }: IFirstStage) {

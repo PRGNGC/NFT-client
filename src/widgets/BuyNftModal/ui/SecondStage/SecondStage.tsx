@@ -4,24 +4,29 @@ import { GreenTickSvg } from "@/shared/ui/icons/GreenTickSvg";
 import { RedCrossSvg } from "@/shared/ui/icons/RedCrossSvg";
 
 interface ISecondStage {
-	status: number;
+	response: Response;
 }
 
-export function SecondStage({ status }: ISecondStage) {
+export function SecondStage({ response }: ISecondStage) {
+	console.log("SecondStage ~ response:", response);
 	return (
 		<div className={styles.secondStageContainer}>
 			<div className={styles.statusSign}>
-				{status === 200 ? <GreenTickSvg /> : <RedCrossSvg />}
+				{response.status === 200 ? <GreenTickSvg /> : <RedCrossSvg />}
 			</div>
 			<h1 className={styles.secondStageTitle}>
-				{status === 200 ? "Congrats!" : "Error happened!"}
+				{response.status === 200 ? "Congrats!" : "Error happened!"}
 			</h1>
 			<p className={styles.secondStageText}>
-				{status === 200
+				{response.status === 200
 					? "Awesome, your item was put on profile."
-					: "Sorry, something went wrong"}
+					: response.status === 401
+						? "You should be logged in to buy nft!"
+						: response.status === 440
+							? "Your session expired! You need to login again!"
+							: "Sorry, something went wrong!"}
 			</p>
-			{status === 200 ? (
+			{response.status === 200 ? (
 				<Link
 					href="/profile"
 					className={styles.secondStageBtn}

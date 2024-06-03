@@ -35,3 +35,12 @@ export async function logoutApi(accessToken: string) {
 		credentials: "include"
 	});
 }
+
+// export async function refreshApi() {
+// 	const response = await fetch("http://localhost:4000/api/refresh", {
+// 		method: "GET",
+// 		credentials: "include"
+// 	});
+
+// 	return response;
+// }

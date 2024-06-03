@@ -14,7 +14,7 @@ interface IBuyNftModal {
 
 export function BuyNftModal({ nft, onCloseBuyModal }: IBuyNftModal) {
 	const [currentStage, setCurrentStage] = useState<number>(1);
-	const [response, setResponse] = useState<number>(0);
+	const [response, setResponse] = useState<Response | null>(null);
 
 	return (
 		<div className={styles.modalWrapper}>
@@ -34,7 +34,7 @@ export function BuyNftModal({ nft, onCloseBuyModal }: IBuyNftModal) {
 						onResponse={setResponse}
 					/>
 				)}
-				{currentStage === 2 && <SecondStage status={response} />}
+				{currentStage === 2 && <SecondStage response={response as Response} />}
 			</div>
 		</div>
 	);

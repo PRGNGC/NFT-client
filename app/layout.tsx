@@ -3,7 +3,6 @@ import { inter } from "@/app/fonts";
 import "./globals.css";
 import { Navbar } from "@/widgets/Navbar";
 import { StoreProviders } from "@/app/store/storeProvider";
-import { PersistedStoreProviders } from "@/app/store/persistedStoreProvider";
 import { QueryProvider } from "@/app/queryProvider";
 
 export const metadata: Metadata = {
@@ -22,7 +21,7 @@ export default function RootLayout({
 				<html lang="en">
 					<body className={`${inter.className}`}>
 						<Navbar />
-						<PersistedStoreProviders>{children}</PersistedStoreProviders>
+						{children}
 					</body>
 				</html>
 			</QueryProvider>

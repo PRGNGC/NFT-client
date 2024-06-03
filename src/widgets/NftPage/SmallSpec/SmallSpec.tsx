@@ -7,8 +7,6 @@ import { LinkSvgImage } from "@/shared/ui/icons/LinkSvgImage";
 import { SectionsBlock } from "./ui/SectionsBlock";
 import { createPortal } from "react-dom";
 import { BuyNftModal } from "@/widgets/BuyNftModal";
-import { useSelector } from "react-redux";
-import { RootState } from "@/app/store/store";
 
 interface SmallSpecProps {
 	nftInfo: INft;
@@ -16,10 +14,6 @@ interface SmallSpecProps {
 
 export function SmallSpec({ nftInfo }: SmallSpecProps) {
 	const [buyModalOpen, setBuyModalOpen] = useState<boolean>(false);
-
-	const accessToken = useSelector(
-		(state: RootState) => state.login.accessToken
-	) as string;
 
 	return (
 		<div className={styles.smallSpecBlock}>
@@ -51,10 +45,6 @@ export function SmallSpec({ nftInfo }: SmallSpecProps) {
 				<button
 					className={styles.smallSpecPurchaseButton}
 					onClick={() => {
-						if (!accessToken) {
-							alert("You must be logged in");
-							return;
-						}
 						document.body.style.overflowY = "hidden";
 						setBuyModalOpen(true);
 					}}
