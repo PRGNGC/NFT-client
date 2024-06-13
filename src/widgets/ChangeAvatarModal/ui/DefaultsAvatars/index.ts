@@ -1,0 +1,1 @@
+export { DefaultsAvatars } from "./DefaultsAvatars";

@@ -1,0 +1,94 @@
+@use "@/app/common.scss" as *;
+
+.modalWrapper {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	padding: 16px;
+	background-color: rgb(247 247 240 / 95%);
+	overflow: auto;
+	z-index: 990;
+	transition: all 0.25s ease;
+
+	.modalBlock {
+		width: 530px;
+		border-radius: 24px;
+		padding: 20px;
+		background-color: #fff;
+		position: relative;
+
+		.closeModalBtn {
+			cursor: pointer;
+			position: absolute;
+			top: 20px;
+			right: 20px;
+		}
+
+		.modalTitle {
+			color: #22252d;
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 28px;
+			letter-spacing: -0.02em;
+		}
+
+		.modeTogglerBlock {
+			margin-bottom: 32px;
+			height: 48px;
+			display: flex;
+			align-items: center;
+			padding: 4px;
+			border-radius: 12px;
+			background-color: #f3f3f0;
+
+			.modeToggler {
+				flex-basis: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 14px;
+				font-weight: 700;
+				line-height: 24px;
+				color: #494e5b;
+				cursor: pointer;
+			}
+
+			.activeModeToggler {
+				cursor: pointer;
+				flex-basis: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				box-shadow:
+					0 2px 4px rgb(0 0 0 / 8%),
+					inset 0 1px 0 #fff;
+				background-color: #fcfcf9;
+				height: 40px;
+				border-radius: 8px;
+				font-size: 14px;
+				font-weight: 700;
+				line-height: 24px;
+				color: #494e5b;
+			}
+		}
+
+		.changeBtn {
+			width: 100%;
+			height: 56px;
+			padding: 0 30px;
+			background: #e45f35;
+			border-radius: 12px;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 24px;
+			color: #fff;
+			cursor: pointer;
+			border: none;
+		}
+	}
+}

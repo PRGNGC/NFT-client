@@ -1,0 +1,1 @@
+export { UserInfoSettings } from "./UserInfoSettings";

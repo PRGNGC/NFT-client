@@ -7,6 +7,7 @@ import { ItemCardSkeleton } from "@/entities/nft/ui/ItemCardSkeleton";
 import type { INft } from "@/entities/nft/api/types";
 import { useDispatch } from "react-redux";
 import { login } from "@/app/store/loginSlice/loginSlice";
+import { NftListSkeleton } from "../NftListSkeleton";
 
 interface INftList {
 	fetchFunc(
@@ -33,7 +34,7 @@ export function NftList({ fetchFunc }: INftList) {
 		status
 	} = fetchFunc(category, searchQuery);
 
-	if (isLoading) return <p style={{ color: "black" }}>Loading...</p>;
+	if (isLoading) return <NftListSkeleton />;
 
 	if (isError) return <p style={{ color: "black" }}>{`${error}`}</p>;
 

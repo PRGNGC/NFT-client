@@ -45,7 +45,7 @@ export function SmallSpec({ nftInfo }: SmallSpecProps) {
 				<button
 					className={styles.smallSpecPurchaseButton}
 					onClick={() => {
-						document.body.style.overflowY = "hidden";
+						// document.body.style.overflowY = "hidden";
 						setBuyModalOpen(true);
 					}}
 				>

@@ -1,13 +1,16 @@
+import { IUser } from "@/entities/user/api/types";
 import { createSlice } from "@reduxjs/toolkit";
 
 interface ILoginSlice {
 	accessToken: string | null;
 	expiresAt: number | null;
+	user: IUser;
 }
 
 const initialState: ILoginSlice = {
 	accessToken: null,
-	expiresAt: null
+	expiresAt: null,
+	user: {} as IUser
 };
 
 const loginSlice = createSlice({
@@ -16,13 +19,13 @@ const loginSlice = createSlice({
 	reducers: {
 		login: (state, action) => {
 			state.accessToken = action.payload[0];
-			console.log("state.accessToken:", state.accessToken);
 			state.expiresAt = action.payload[1];
-			console.log("state.expiresAt:", state.expiresAt);
+			state.user = action.payload[2];
 		},
 		logout: (state) => {
 			state.accessToken = null;
 			state.expiresAt = null;
+			state.user = {} as IUser;
 		}
 	}
 });

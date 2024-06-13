@@ -1,0 +1,28 @@
+@use "@/app/common.scss" as *;
+
+.userCoverBlock {
+	position: relative;
+	width: 1200px;
+	height: 300px;
+
+	.uploadZone {
+		width: 100%;
+		height: 100%;
+	}
+
+	.editBtn {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 171%;
+		text-align: center;
+		color: $custom-neutral-2;
+		border: 2px solid rgb(255 255 255 / 50%);
+		border-radius: 8px;
+		padding: 8px 16px;
+		background-color: transparent;
+		position: absolute;
+		bottom: 15px;
+		right: 10px;
+		cursor: pointer;
+	}
+}

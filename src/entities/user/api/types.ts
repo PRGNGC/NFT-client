@@ -6,4 +6,5 @@ export interface IUser {
 	userImg: string;
 	cover: string;
 	nfts: INft[];
+	username: string;
 }

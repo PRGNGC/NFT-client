@@ -28,19 +28,9 @@ export async function signupApi(login: string, password: string, name: string) {
 	return response;
 }
 
-export async function logoutApi(accessToken: string) {
+export async function logoutApi() {
 	await fetch("http://localhost:4000/api/logout", {
 		method: "POST",
-		body: JSON.stringify({ accessToken: accessToken }),
 		credentials: "include"
 	});
 }
-
-// export async function refreshApi() {
-// 	const response = await fetch("http://localhost:4000/api/refresh", {
-// 		method: "GET",
-// 		credentials: "include"
-// 	});
-
-// 	return response;
-// }

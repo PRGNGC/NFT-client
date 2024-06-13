@@ -19,7 +19,10 @@ export default function RootLayout({
 		<StoreProviders>
 			<QueryProvider>
 				<html lang="en">
-					<body className={`${inter.className}`}>
+					<body
+						className={`${inter.className}`}
+						style={{ width: "100vw", height: "100vh" }}
+					>
 						<Navbar />
 						{children}
 					</body>

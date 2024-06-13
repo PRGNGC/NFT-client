@@ -3,6 +3,7 @@
 .userInfoBlock {
 	max-width: 1200px;
 	margin: 0 auto;
+	background-color: $custom-neutral-2;
 
 	.userDataBlock {
 		max-width: 1100px;
@@ -25,6 +26,7 @@
 				position: absolute;
 				bottom: 0;
 				left: 0;
+				cursor: pointer;
 			}
 
 			.userNameId {

@@ -1,30 +1,8 @@
 // JWT AUTHENTICATION
-"use client";
-import { useDispatch } from "react-redux";
-import { login } from "@/app/store/loginSlice/loginSlice";
 import { Profile } from "@/pages/Profile";
-import { UserInfoBlock } from "@/widgets/UserInfoBlock";
-import { loadUser } from "@/entities/user/queries";
 
 export default function ProfilePage() {
-	const dispatch = useDispatch();
-
-	const { isLoading, isError, isSuccess, data, error } = loadUser();
-
-	if (isLoading) return <p>Loading...</p>;
-
-	if (isError) return <p>{error.message}</p>;
-
-	if (isSuccess && data.accessToken !== undefined) {
-		dispatch(login([data.accessToken, data.expiresAt]));
-	}
-
-	return (
-		<div style={{ backgroundColor: "#fcfcf9" }}>
-			<UserInfoBlock userInfo={data.user} />
-			<Profile />
-		</div>
-	);
+	return <Profile />;
 }
 
 // SESSION AUTHENTICATION

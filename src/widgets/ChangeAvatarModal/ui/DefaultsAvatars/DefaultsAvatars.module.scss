@@ -1,0 +1,46 @@
+@use "@/app/common.scss" as *;
+
+.defaultsAvatarsContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	align-items: center;
+
+	.defaultsAvatarsTitle {
+		text-align: center;
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 20px;
+		letter-spacing: -0.01em;
+		color: #494e5b;
+	}
+
+	.defaultsAvatarsBlock {
+		display: flex;
+		align-items: center;
+		margin-bottom: 30px;
+		gap: 16px;
+
+		.defaultAvatar {
+			width: 68px;
+			height: 68px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			border: 2px solid white;
+		}
+
+		.activeDefaultAvatar {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 68px;
+			height: 68px;
+			border-radius: 50%;
+			border: 2px solid #1863f9;
+		}
+	}
+}

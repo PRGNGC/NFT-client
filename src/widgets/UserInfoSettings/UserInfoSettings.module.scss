@@ -1,0 +1,195 @@
+@use "@/app/common.scss" as *;
+
+.userInfoSettingsBlock {
+	max-width: 1000px;
+	margin: 0 auto;
+
+	.userNameBtn {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.userName {
+			font-weight: 700;
+			font-size: 64px;
+			line-height: 112%;
+			letter-spacing: -0.03em;
+			text-align: center;
+			color: $custom-neutral-8;
+		}
+
+		.saveBtn {
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 150%;
+			text-align: center;
+			color: #fff;
+			border-radius: 12px;
+			padding: 16px 32px;
+			background-color: $custom-red;
+			border: none;
+			cursor: pointer;
+		}
+	}
+
+	.targetInfo {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 156%;
+		letter-spacing: -0.02em;
+		color: $custom-neutral-5;
+	}
+
+	hr {
+		margin: 64px 0;
+	}
+
+	.mainUserInfo {
+		display: flex;
+		gap: 110px;
+
+		.textInfo {
+			display: flex;
+			flex-direction: column;
+			gap: 40px;
+
+			.profileCoverBlock {
+				display: flex;
+				flex-direction: column;
+				gap: 12px;
+
+				.profileCoverTitle {
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 150%;
+					color: $custom-neutral-8;
+				}
+
+				.userCoverContainer {
+					position: relative;
+					cursor: pointer;
+
+					.changeImg {
+						position: absolute;
+						top: 20px;
+						left: 20px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: 50px;
+						height: 50px;
+						border-radius: 50%;
+						background-color: $custom-neutral-9;
+						cursor: pointer;
+						transition: all 0.3s;
+						opacity: 0%;
+
+						.chooseCoverFile {
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 100%;
+							opacity: 0%;
+							cursor: pointer;
+						}
+					}
+
+					&:hover {
+						.changeImg {
+							transition: all 0.3s;
+							opacity: 100%;
+						}
+					}
+				}
+			}
+
+			.displayNameBlock {
+				display: flex;
+				flex-direction: column;
+				gap: 12px;
+
+				.displayNameTitle {
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 150%;
+					color: $custom-neutral-8;
+				}
+
+				.displayNameInput {
+					font-weight: 500;
+					font-size: 16px;
+					line-height: 150%;
+					color: $custom-neutral-8;
+					border: 2px solid $custom-neutral-4;
+					border-radius: 12px;
+					padding: 20px;
+					background-color: $custom-neutral-2;
+				}
+			}
+
+			.usernameBlock {
+				display: flex;
+				flex-direction: column;
+				gap: 12px;
+
+				.usernameTitle {
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 150%;
+					color: $custom-neutral-8;
+				}
+
+				.usernameInput {
+					font-weight: 500;
+					font-size: 16px;
+					line-height: 150%;
+					color: $custom-neutral-8;
+					border: 2px solid $custom-neutral-4;
+					border-radius: 12px;
+					padding: 20px;
+					background-color: $custom-neutral-2;
+				}
+			}
+		}
+	}
+
+	.imgInfo {
+		padding-top: 35px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
+		.prompt {
+			font-weight: 500;
+			font-size: 13px;
+			line-height: 154%;
+			letter-spacing: -0.01em;
+			color: $custom-neutral-5;
+		}
+
+		.changeImgBtn {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 171%;
+			text-align: center;
+			color: $custom-neutral-8;
+			border: 2px solid rgb(127 133 150 / 30%);
+			border-radius: 8px;
+			padding: 8px 16px;
+			background-color: transparent;
+			width: fit-content;
+			position: relative;
+
+			.chooseUserFile {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				cursor: pointer;
+				opacity: 0%;
+			}
+		}
+	}
+}

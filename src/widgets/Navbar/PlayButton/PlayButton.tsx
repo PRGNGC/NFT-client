@@ -1,20 +1,14 @@
 "use client";
 import styles from "./PlayButton.module.scss";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-
-//jwt auth
-import { useDispatch, useSelector } from "react-redux";
+import { UserAvatar } from "../UserAvatar";
+import { useSelector } from "react-redux";
 import { RootState } from "@/app/store/store";
-import { logout } from "@/app/store/loginSlice/loginSlice";
-import { logoutApi } from "@/entities/session/api/sessionApi";
 
 export function PlayButton() {
-	const router = useRouter();
-	const dispatch = useDispatch();
 	const accessToken = useSelector(
 		(state: RootState) => state.login.accessToken
-	) as string;
+	);
 
 	return (
 		<div className={styles.buttonsBlock}>
@@ -25,27 +19,7 @@ export function PlayButton() {
 				Play Now
 			</Link>
 
-			{accessToken && (
-				<button
-					className={styles.playButton}
-					onClick={async () => {
-						// SESSION AUTHENTICATION
-						// const res = await fetch("http://localhost:4000/api/logout", {
-						//   credentials: "include",
-						// });
-						// router.push("/");
-
-						//JWT AUTHENTICATION
-						logoutApi(accessToken);
-						dispatch(logout());
-						router.push("/");
-					}}
-				>
-					Log Out
-				</button>
-			)}
-
-			{!accessToken && (
+			{accessToken === null && (
 				<Link
 					href="/login"
 					className={styles.playButton}
@@ -54,7 +28,7 @@ export function PlayButton() {
 				</Link>
 			)}
 
-			{!accessToken && (
+			{accessToken === null && (
 				<Link
 					href="/signup"
 					className={styles.playButton}
@@ -62,6 +36,8 @@ export function PlayButton() {
 					Sign Up
 				</Link>
 			)}
+
+			{accessToken !== null && <UserAvatar />}
 		</div>
 	);
 }

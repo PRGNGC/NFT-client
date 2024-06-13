@@ -1,0 +1,1 @@
+export { TickSvg } from "./TickSvg";

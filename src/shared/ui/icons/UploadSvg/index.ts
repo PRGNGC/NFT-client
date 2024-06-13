@@ -1,0 +1,1 @@
+export { UploadSvg } from "./UploadSvg";

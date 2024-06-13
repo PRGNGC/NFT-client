@@ -1,1 +1,14 @@
 @use "@/app/common.scss" as *;
+
+.profileBlock {
+	background-color: $custom-neutral-2;
+
+	.profileBlockContainer {
+		max-width: 1200px;
+		margin: 0 auto;
+
+		.profileNfts {
+			background-color: $custom-neutral-2;
+		}
+	}
+}

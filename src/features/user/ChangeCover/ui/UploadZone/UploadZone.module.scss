@@ -1,0 +1,40 @@
+@use "@/app/common.scss" as *;
+
+.uploadZone {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 2px dashed #e7e7e1;
+	border-radius: 12px;
+	background-color: #f7f7f0;
+	height: 100%;
+	position: relative;
+
+	.chooseCoverFile {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+		opacity: 0%;
+	}
+
+	.uploadZoneTitle {
+		color: #22252d;
+		font-family: Inter, sans-serif;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 28px;
+		letter-spacing: -0.02em;
+	}
+
+	.uploadZoneText {
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 20px;
+		letter-spacing: -0.01em;
+		color: #7f8596;
+	}
+}

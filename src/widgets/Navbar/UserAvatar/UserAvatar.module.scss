@@ -1,0 +1,248 @@
+@use "@/app/common.scss" as *;
+
+.userAvatarBlock {
+	position: relative;
+
+	.userAvatar {
+		cursor: pointer;
+	}
+
+	.userAvatarMenu {
+		position: absolute;
+		top: 50px;
+		right: 0;
+		background-color: #fff;
+		border: 2px solid $custom-neutral-3;
+		border-radius: 16px;
+		width: 300px;
+
+		.userNameTag {
+			padding: 24px 24px 12px;
+			display: flex;
+			align-items: flex-start;
+			justify-content: center;
+			flex-direction: column;
+
+			.userName {
+				font-weight: 700;
+				font-size: 20px;
+				line-height: 140%;
+				letter-spacing: -0.02em;
+				text-align: center;
+				color: $custom-neutral-8;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				width: 100%;
+			}
+
+			.userTag {
+				font-weight: 500;
+				font-size: 13px;
+				line-height: 154%;
+				letter-spacing: -0.01em;
+				text-align: center;
+				color: $custom-neutral-5;
+			}
+		}
+
+		.linksBlock {
+			padding: 12px;
+
+			.pageLink {
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 171%;
+				color: $custom-neutral-5;
+				border-radius: 8px;
+				padding: 12px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				flex-direction: row;
+
+				&:hover {
+					border-radius: 8px;
+					box-shadow:
+						inset 0 2px 1px 0 #fff,
+						0 2px 2px 0 #e2e2df;
+					background-color: $custom-neutral-11;
+					color: $custom-neutral-8;
+				}
+
+				.pageName {
+					display: flex;
+					gap: 12px;
+					align-items: center;
+				}
+			}
+
+			.activePageLink {
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 171%;
+				border-radius: 8px;
+				padding: 12px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				flex-direction: row;
+				box-shadow:
+					inset 0 2px 1px 0 #fff,
+					0 2px 2px 0 #e2e2df;
+				background-color: $custom-neutral-11;
+				color: $custom-neutral-8;
+
+				&:hover {
+					border-radius: 8px;
+					box-shadow:
+						inset 0 2px 1px 0 #fff,
+						0 2px 2px 0 #e2e2df;
+					background-color: $custom-neutral-11;
+					color: $custom-neutral-8;
+				}
+
+				.pageName {
+					display: flex;
+					gap: 12px;
+					align-items: center;
+				}
+			}
+
+			hr {
+				margin: 12px 0;
+			}
+		}
+
+		.themeSwitcherBlock {
+			padding: 12px 24px;
+
+			.themeSwitchers {
+				border-radius: 12px;
+				padding: 4px;
+				background-color: $custom-neutral-11;
+				display: flex;
+				align-items: center;
+
+				.lightSwitcher {
+					flex-basis: 50%;
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 133%;
+					letter-spacing: -0.02em;
+					text-align: center;
+					color: $custom-neutral-8;
+					border-radius: 8px;
+					padding: 6px;
+					cursor: pointer;
+					display: flex;
+					gap: 4px;
+					align-items: center;
+					justify-content: center;
+				}
+
+				.darkSwitcher {
+					flex-basis: 50%;
+					border-radius: 8px;
+					padding: 6px;
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 133%;
+					letter-spacing: -0.02em;
+					text-align: center;
+					color: $custom-neutral-8;
+					cursor: pointer;
+					display: flex;
+					gap: 4px;
+					align-items: center;
+					justify-content: center;
+				}
+
+				.activeLightSwitcher {
+					box-shadow:
+						0 2px 4px 0 rgb(0 0 0 / 8%),
+						inset 0 1px 0 0 #fff;
+					flex-basis: 50%;
+					background-color: #fff;
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 133%;
+					letter-spacing: -0.02em;
+					text-align: center;
+					color: $custom-neutral-8;
+					border-radius: 8px;
+					padding: 6px;
+					cursor: pointer;
+					display: flex;
+					gap: 4px;
+					align-items: center;
+					justify-content: center;
+				}
+
+				.activeDarkSwitcher {
+					box-shadow:
+						0 2px 4px 0 rgb(0 0 0 / 8%),
+						inset 0 1px 0 0 #fff;
+					flex-basis: 50%;
+					background-color: #fff;
+					border-radius: 8px;
+					padding: 6px;
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 133%;
+					letter-spacing: -0.02em;
+					text-align: center;
+					color: $custom-neutral-8;
+					cursor: pointer;
+					display: flex;
+					gap: 4px;
+					align-items: center;
+					justify-content: center;
+				}
+			}
+		}
+
+		.btnBlock {
+			padding: 0 24px 24px;
+
+			.playButton {
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 171%;
+				text-align: center;
+				color: #fff;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: row;
+				gap: 8px;
+				border-radius: 8px;
+				padding: 8px 16px;
+				border: none;
+				background-color: $custom-red;
+				cursor: pointer;
+				width: 100%;
+			}
+
+			.logoutButton {
+				margin-top: 8px;
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 171%;
+				text-align: center;
+				color: $custom-neutral-8;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: row;
+				gap: 8px;
+				border-radius: 8px;
+				padding: 8px 16px;
+				cursor: pointer;
+				width: 100%;
+				border: 2px solid $custom-neutral-11;
+				background-color: transparent;
+			}
+		}
+	}
+}

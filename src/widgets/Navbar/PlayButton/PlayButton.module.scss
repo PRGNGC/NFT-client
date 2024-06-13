@@ -1,4 +1,8 @@
 .buttonsBlock {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+
 	.playButton {
 		border-radius: 8px;
 		border: 2px solid #7f8596;

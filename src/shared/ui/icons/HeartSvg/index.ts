@@ -1,0 +1,1 @@
+export { HeartSvg } from "./HeartSvg";
